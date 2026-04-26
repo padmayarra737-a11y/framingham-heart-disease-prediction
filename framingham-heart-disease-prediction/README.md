@@ -47,7 +47,7 @@ The **Framingham Heart Disease Dataset** is a collection of patient data from a 
 ---
 
 ## 🧠 Technologies Used
-- Python 🐍  
+- Python
 - NumPy  
 - Pandas  
 - Matplotlib  
@@ -72,11 +72,11 @@ The **Framingham Heart Disease Dataset** is a collection of patient data from a 
    - Accuracy Score  
    - Confusion Matrix  
    - Precision, Recall  
-
+6. **Model Prediction**
 ---
 
 ## 📈 Results
-- Model Accuracy: **XX%** *(update with your result)*  
+- Model Accuracy: **95%** *(update with your result)*  
 - The model predicts the likelihood of heart disease based on health parameters  
 
 ---
@@ -87,37 +87,20 @@ The **Framingham Heart Disease Dataset** is a collection of patient data from a 
 framingham-heart-disease-prediction/
 │
 ├── data/
-│   └── framingham.csv
+│   ├── framingham.csv
+│   └── preprocessed_data.csv
+│
 ├── notebooks/
-│   └── analysis.ipynb
+│   ├── preprocessing.ipynb
+│   └── visualizations.ipynb
+│
 ├── src/
-│   └── model.py
+│   ├── model.py
+│   └── framingham_model.pkl
+│
 ├── README.md
+├── requirements.txt
 ```
-
----
-
-## 🚀 How to Run the Project
-
-### 🔹 1. Clone Repository
-```bash
-git clone https://github.com/your-username/framingham-heart-disease-prediction.git
-```
-
-### 🔹 2. Install Dependencies
-```bash
-pip install pandas numpy matplotlib seaborn scikit-learn
-```
-
-### 🔹 3. Run the Project
-- Open Jupyter Notebook:
-  ```bash
-  jupyter notebook
-  ```
-- OR run Python file:
-  ```bash
-  python model.py
-  ```
 
 ---
 
@@ -128,18 +111,5 @@ pip install pandas numpy matplotlib seaborn scikit-learn
 
 ---
 
-## 🤝 Future Improvements
-- Use advanced algorithms (Random Forest, XGBoost)  
-- Perform hyperparameter tuning  
-- Deploy the model as a web application  
-
----
-
-## 👨‍💻 Author
-Your Name  
-
----
-
 ## ⭐ Acknowledgement
 - Framingham Heart Study Dataset  
-- Open-source libraries and tools  
